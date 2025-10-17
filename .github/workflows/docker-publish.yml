@@ -1,11 +1,12 @@
 
+
 name: Publish Docker image (latest + version)
 
 on:
   push:
     branches: [ main ]        # build on main updates
 
-jobs: 
+jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
