@@ -13,7 +13,7 @@ jobs:
       packages: write         # required to push to GHCR
 
     env:
-      IMAGE: ghcr.io/ttyueiwow/rrrrrrrr
+      IMAGE: ghcr.io/ttyueiwow/newrrrr
 
     steps:
       - name: Checkout
